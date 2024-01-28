@@ -49,10 +49,3 @@ const title = ref('Hello')
   color: $title-color;
 }
 </style>
-
-<style lang="less" scoped>
-.less-title {
-  font-size: @title-size;
-  color: @title-color;
-}
-</style>

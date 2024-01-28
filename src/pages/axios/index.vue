@@ -29,12 +29,3 @@ const getCode = () => {
     })
 }
 </script>
-
-<style lang="less" scoped>
-.axios-demo {
-  text-align: center;
-}
-.title-h1 {
-  font-size: 50rpx;
-}
-</style>

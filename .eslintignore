@@ -1,2 +1,5 @@
-dist
-*.nvue
+static/
+*.min.js
+dist/
+*.d.ts
+*.js

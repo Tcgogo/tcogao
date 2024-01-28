@@ -4,6 +4,8 @@ unpackage/
 dist/
 wxcomponents
 
+manifest.json
+
 # local env files
 .env.local
 .env.*.local
@@ -12,6 +14,7 @@ wxcomponents
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+manifest.json
 
 # Editor directories and files
 .project

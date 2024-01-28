@@ -4,31 +4,31 @@
     {
       "path": "pages/index/index",
       "style": {
-        "navigationBarTitleText": "uni-app-home"
+        "navigationBarTitleText": "阳阳好家政"
       }
     },
     {
       "path": "pages/pinia/index",
       "style": {
-        "navigationBarTitleText": "状态管理工具（pinia）"
+        "navigationBarTitleText": "阳阳好家政"
       }
     },
     {
       "path": "pages/axios/index",
       "style": {
-        "navigationBarTitleText": "Axios（网络请求示例）"
+        "navigationBarTitleText": "阳阳好家政"
       }
     },
     {
       "path": "pages/uview/index",
       "style": {
-        "navigationBarTitleText": "uView 示例组件"
+        "navigationBarTitleText": "阳阳好家政"
       }
     },
     {
       "path": "pages/unocss/index",
       "style": {
-        "navigationBarTitleText": "UnoCSS 示例"
+        "navigationBarTitleText": "阳阳好家政"
       }
     }
   ],
@@ -38,9 +38,44 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-  "easycom": {
-    "custom": {
-      "^u-(.*)": "vk-uview-ui/components/u-$1/u-$1.vue"
-    }
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#32c8e1",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/tabs/home.png",
+        "selectedIconPath": "/static/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/pinia/index",
+        "text": "家政员",
+        "iconPath": "/static/tabs/jiazheng.png",
+        "selectedIconPath": "/static/tabs/jiazheng-active.png"
+      },
+      {
+        "pagePath": "pages/axios/index",
+        "text": "评价",
+        "iconPath": "/static/tabs/pingjia.png",
+        "selectedIconPath": "/static/tabs/pingjia-active.png"
+      },
+      {
+        "pagePath": "pages/uview/index",
+        "text": "知识",
+        "iconPath": "/static/tabs/zhishi.png",
+        "selectedIconPath": "/static/tabs/zhishi-active.png"
+      },
+
+      {
+        "pagePath": "pages/unocss/index",
+        "text": "关于",
+        "iconPath": "/static/tabs/guanyuwo.png",
+        "selectedIconPath": "/static/tabs/guanyuwo-active.png"
+      }
+    ],
+    "position": "bottom"
   }
 }

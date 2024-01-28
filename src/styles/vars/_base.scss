@@ -1,2 +1,23 @@
 $title-size: 40rpx;
 $title-color: #bd34fe;
+body,
+html,
+page {
+  --safe-bottom: constant(safe-area-inset-bottom);
+  --safe-bottom: env(safe-area-inset-bottom);
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Segoe UI, Arial,
+    Roboto, 'PingFang SC', 'miui', 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+}
+
+view,
+text,
+::before {
+  box-sizing: border-box;
+}
+
+view,
+text,
+::after {
+  box-sizing: border-box;
+}

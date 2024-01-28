@@ -14,7 +14,9 @@
       "@dcloudio/types",
       "vite/client",
       "@types/node",
-      "vitest/globals"
+      "vitest/globals",
+      "wot-design-uni/global.d.ts",
+      "@tuniao/tnui-vue3-uniapp/global.d.ts"
     ],
     "baseUrl": "./",
     "paths": {
@@ -22,5 +24,5 @@
       "@components/*": ["src/components/*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "./auto-imports.d.ts"]
 }
